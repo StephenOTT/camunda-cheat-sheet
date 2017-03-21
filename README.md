@@ -44,3 +44,11 @@ https://docs.camunda.org/manual/7.6/reference/spin/json/
 
 
 
+# Script Logging to Camunda Console
+
+Javascript
+```
+var system = java.lang.System
+system.out.println("System out println");
+```
+
