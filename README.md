@@ -52,3 +52,13 @@ var system = java.lang.System
 system.out.println("System out println");
 ```
 
+
+# Send/Throw Message from within Camunda (Expression) (Throw and Catch Message with Expression)
+
+Expression:
+`${execution.getProcessEngineServices().getRuntimeService().createMessageCorrelation("work").correlateWithResult()}`
+Doc: 
+https://docs.camunda.org/javadoc/camunda-bpm-platform/7.6/org/camunda/bpm/engine/RuntimeService.html
+https://docs.camunda.org/javadoc/camunda-bpm-platform/7.6/org/camunda/bpm/engine/RuntimeService.html#correlateMessage(java.lang.String)
+
+
