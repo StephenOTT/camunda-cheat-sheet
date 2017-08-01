@@ -1,4 +1,4 @@
-# Camunda Cheet Sheet
+# Camunda Cheat Sheet
 
 A list of commonly used links and commands for Camunda BPM
 
